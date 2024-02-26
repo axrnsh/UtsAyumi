@@ -4,15 +4,144 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/biruTua">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/prof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15"
+            android:background="@color/biruUph"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gambarProfil"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin15"
+                android:src="@drawable/user1" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/biruUph"
+                android:gravity="center_horizontal"
+                android:text="Ayumi"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSizeMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/NIM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/biruUph"
+                android:gravity="center_horizontal"
+                android:text="03081220019"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSizeSmall" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin15"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/univ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="UPH\nMedan"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/fk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fakultas Ilmu Komputer\nJurusan Sistem Informasi"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tahun ke 2\nSemester 4"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/biruLain"
+            android:layout_margin="@dimen/margin15">
+
+            <TextView
+                android:id="@+id/poin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1728"
+                android:textColor="@color/kuning"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_marginTop="@dimen/margin15"
+                android:layout_marginLeft="@dimen/margin15"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/sepText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Engagement Point"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSizeSmall"
+                android:layout_marginLeft="@dimen/margin15"
+                android:layout_marginRight="@dimen/margin15"
+                android:layout_marginBottom="@dimen/margin15"/>
+        </LinearLayout>\>
+        <LinearLayout
+            android:id="@+id/profilEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/biruLain"
+            android:layout_marginLeft="@dimen/margin15"
+            android:layout_marginRight="@dimen/margin15">
+
+            <TextView
+                android:id="@+id/profilText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profil"
+                android:textColor="@color/kuning"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_marginTop="@dimen/margin15"
+                android:layout_marginLeft="@dimen/margin15"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/profilChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubah Profil Saya"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSizeSmall"
+                android:layout_marginLeft="@dimen/margin15"
+                android:layout_marginRight="@dimen/margin15"
+                android:layout_marginBottom="@dimen/margin15"/>
+        </LinearLayout>\>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

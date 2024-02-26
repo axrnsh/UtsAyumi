@@ -13,6 +13,12 @@
         android:theme="@style/Theme.UtsAyumi"
         tools:targetApi="31">
         <activity
+            android:name=".ProfilMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".SEPPoin"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

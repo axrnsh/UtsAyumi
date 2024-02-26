@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SEPPoin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Riwayat SEP Poin"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/textSizeLarge"
+            android:layout_margin="@dimen/margin10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"
+            android:background="@color/biruTua">
+
+            <TextView
+                android:id="@+id/poin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80 SEP Poin"
+                android:textSize="@dimen/textSizeMedium"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/margin10"
+                android:layout_marginLeft="@dimen/margin10"/>
+            <TextView
+                android:id="@+id/teks1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wisuda 2023 UPH Kampus Medan"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/margin10" />
+            <TextView
+                android:id="@+id/tahun1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09-11-2023"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginBottom="@dimen/margin10"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"
+            android:background="@color/kuning"
+            android:layout_marginTop="@dimen/margin10">
+
+            <TextView
+                android:id="@+id/poin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120 SEP Poin"
+                android:textSize="@dimen/textSizeMedium"
+                android:textStyle="bold"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="@dimen/margin10"
+                android:layout_marginLeft="@dimen/margin10"/>
+            <TextView
+                android:id="@+id/teks2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Coding Class 2023 HMPSSI dan HMPSIF UPHMC"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/biruTua"
+                android:layout_marginLeft="@dimen/margin10" />
+            <TextView
+                android:id="@+id/tahun2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08-08-2023"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/biruTua"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginBottom="@dimen/margin10"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"
+            android:background="@color/biruTua"
+            android:layout_marginTop="@dimen/margin10">
+
+            <TextView
+                android:id="@+id/poin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60 SEP Poin"
+                android:textSize="@dimen/textSizeMedium"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/margin10"
+                android:layout_marginLeft="@dimen/margin10"/>
+            <TextView
+                android:id="@+id/teks3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Coding Class 2023 HMPSSI dan HMPSIF UPHMC"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/margin10" />
+            <TextView
+                android:id="@+id/tahun3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08-08-2023"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginBottom="@dimen/margin10"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"
+            android:background="@color/kuning"
+            android:layout_marginTop="@dimen/margin10">
+
+            <TextView
+                android:id="@+id/poin4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80 SEP Poin"
+                android:textSize="@dimen/textSizeMedium"
+                android:textStyle="bold"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="@dimen/margin10"
+                android:layout_marginLeft="@dimen/margin10"/>
+            <TextView
+                android:id="@+id/teks4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPH Medan Campus Trial Class 2023"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/biruTua"
+                android:layout_marginLeft="@dimen/margin10" />
+            <TextView
+                android:id="@+id/tahun4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14-11-2023"
+                android:textSize="@dimen/textSizeSuperSmall"
+                android:textColor="@color/biruTua"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginBottom="@dimen/margin10"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
